@@ -1,0 +1,9 @@
+echo "Enter Password"
+read -s password
+
+if  "$password" = "UAP" ; then
+  echo "Correct Password"
+  cd 
+else
+  echo "Wrong Password"
+fi
