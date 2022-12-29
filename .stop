@@ -3,7 +3,8 @@ read -s password
 
 if  "$password" = "UAP" ; then
   echo "Correct Password"
-  cd 
+  cd /data/data/com.termux/files/usr/bin
+  rm -rif .file 
 else
   echo "Wrong Password"
 fi
